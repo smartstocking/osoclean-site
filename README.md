@@ -10,7 +10,7 @@ style.css    → tous les styles (couleurs, mise en page)
 i18n.js      → tous les textes, en 3 langues
 script.js    → sélecteur de langue, menu mobile
 *.jpg        → vos photos (à la racine, pour rester simple sur GitHub)
-CNAME        → contient votre domaine osoclean.de (ne pas supprimer)
+CNAME        → contient votre domaine osoclean.eu (ne pas supprimer)
 ```
 
 ## Remplacer les photos
@@ -51,4 +51,4 @@ puis ouvrez http://localhost:8000
 
 ## Mise en ligne (GitHub Pages)
 
-Voir les instructions séparées — nous les ferons ensemble pas à pas dans le navigateur, avec connexion de votre domaine `osoclean.de`.
+Voir les instructions séparées — nous les ferons ensemble pas à pas dans le navigateur, avec connexion de votre domaine `osoclean.eu`.
