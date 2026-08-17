@@ -55,7 +55,7 @@ p { margin: 0 0 12px; color: var(--ink-soft); }
   justify-content: center;
   gap: 8px;
   padding: 14px 26px;
-  border-radius: 999px;
+  border-radius: 8px;
   font-weight: 600;
   font-size: 0.98rem;
   border: 2px solid transparent;
@@ -100,7 +100,7 @@ p { margin: 0 0 12px; color: var(--ink-soft); }
 
 .header-actions { display: flex; align-items: center; gap: 14px; }
 
-.lang-switch { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.lang-switch { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
 .lang-btn {
   border: none;
   background: transparent;
@@ -225,7 +225,26 @@ p { margin: 0 0 12px; color: var(--ink-soft); }
   width: 100%;
 }
 .about-list { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-direction: column; gap: 10px; }
-.about-list li { font-weight: 600; color: var(--ink); }
+.about-list li {
+  font-weight: 600;
+  color: var(--ink);
+  position: relative;
+  padding-left: 18px;
+}
+.about-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 7px;
+  width: 8px; height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.about-story {
+  padding-left: 16px;
+  border-left: 2px solid var(--line);
+  font-size: 1.03rem;
+  color: var(--ink);
+}
 
 /* ---------- Gallery ---------- */
 .gallery-grid {
