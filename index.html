@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="de">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -211,11 +211,52 @@
         </div>
 
         <a href="mailto:contact@osoclean.de?subject=Demande%20de%20devis%20OsoClean" class="btn btn-primary btn-large" data-i18n="contact.cta">Demander un devis par email</a>
+
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/contact@osoclean.de" method="POST">
+          <h3 class="contact-form-title" data-i18n="contact.formTitle">Ou envoyez-nous votre demande directement</h3>
+
+          <input type="hidden" name="_subject" value="Nouvelle demande — site OsoClean" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://osoclean.eu/#contact" />
+          <input type="hidden" id="cfServiceLabel" name="Prestation demandée" />
+
+          <div class="form-row">
+            <label for="cfName" data-i18n="contact.formNameLabel">Votre nom</label>
+            <input type="text" id="cfName" name="Nom" data-i18n-placeholder="contact.formNamePlaceholder" placeholder="Nom et prénom" required />
+          </div>
+          <div class="form-row">
+            <label for="cfService" data-i18n="contact.formServiceLabel">Quelle prestation vous faut-il ?</label>
+            <select id="cfService" required>
+              <option value="" data-i18n="contact.formServicePlaceholder">Sélectionnez une prestation</option>
+              <option value="s1" data-i18n="services.s1.title">Bureaux &amp; bâtiments</option>
+              <option value="s2" data-i18n="services.s2.title">Centres &amp; institutions</option>
+              <option value="s3" data-i18n="services.s3.title">Vitres</option>
+              <option value="s4" data-i18n="services.s4.title">Après travaux</option>
+              <option value="s5" data-i18n="services.s5.title">Cuisines &amp; sanitaires</option>
+              <option value="s6" data-i18n="services.s6.title">Garages &amp; parkings</option>
+              <option value="other" data-i18n="contact.formServiceOther">Autre / à discuter</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="cfMessage" data-i18n="contact.formMessageLabel">Détails (facultatif)</label>
+            <textarea id="cfMessage" name="Message" rows="3" data-i18n-placeholder="contact.formMessagePlaceholder" placeholder="Adresse, surface, fréquence souhaitée..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-8.4 8.4 8.3 8.3 0 0 1-3.8-.9L3 21l1.9-5.7a8.3 8.3 0 0 1-.9-3.8A8.4 8.4 0 0 1 12.5 3a8.5 8.5 0 0 1 8.5 8.5z"/></svg>
+            <span data-i18n="contact.formSubmit">Envoyer sur WhatsApp</span>
+          </button>
+          <p class="contact-form-note" data-i18n="contact.formNote">Le message s'ouvre directement dans WhatsApp, prêt à envoyer.</p>
+        </form>
       </div>
     </div>
   </section>
 
 </main>
+
+<a href="https://wa.me/4917689938472" target="_blank" rel="noopener" class="whatsapp-float" data-i18n-aria="whatsapp.floatingLabel" aria-label="Discuter sur WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-8.4 8.4 8.3 8.3 0 0 1-3.8-.9L3 21l1.9-5.7a8.3 8.3 0 0 1-.9-3.8A8.4 8.4 0 0 1 12.5 3a8.5 8.5 0 0 1 8.5 8.5z"/></svg>
+</a>
 
 <footer class="site-footer">
   <div class="container footer-inner">

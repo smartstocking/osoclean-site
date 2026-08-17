@@ -308,6 +308,67 @@ a.contact-card:hover { background: rgba(255,255,255,0.12); transform: translateY
 .contact-card strong { display: block; font-size: 0.82rem; color: #94A3B8; font-weight: 600; margin-bottom: 2px; }
 .contact-value { font-size: 1rem; font-weight: 700; color: var(--white); }
 
+/* ---------- Contact form ---------- */
+.contact-form {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  max-width: 480px;
+}
+.contact-form-title { font-size: 1.1rem; color: var(--white); margin-bottom: 18px; }
+.form-row { margin-bottom: 16px; display: flex; flex-direction: column; gap: 6px; }
+.form-row label { font-size: 0.85rem; font-weight: 600; color: #CBD5E1; }
+.form-row input,
+.form-row select,
+.form-row textarea {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.06);
+  color: var(--white);
+  font-family: var(--font);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color .2s ease, background .2s ease;
+  resize: vertical;
+}
+.form-row input::placeholder,
+.form-row textarea::placeholder { color: #64748B; }
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus { border-color: var(--accent); background: rgba(255,255,255,0.1); }
+.form-row select option { color: var(--ink); background: var(--white); }
+.contact-form .btn { margin-top: 4px; }
+.contact-form-note { font-size: 0.82rem; color: #94A3B8; margin-top: 12px; margin-bottom: 0; }
+
+/* ---------- WhatsApp floating button ---------- */
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.3);
+  z-index: 60;
+  transition: transform .2s ease;
+  animation: whatsappPulse 2.4s ease-in-out infinite;
+}
+.whatsapp-float:hover { transform: scale(1.07); }
+.whatsapp-float svg { width: 30px; height: 30px; }
+@keyframes whatsappPulse {
+  0%, 100% { box-shadow: 0 10px 24px rgba(15, 23, 42, 0.3), 0 0 0 0 rgba(37, 211, 102, 0.45); }
+  50% { box-shadow: 0 10px 24px rgba(15, 23, 42, 0.3), 0 0 0 10px rgba(37, 211, 102, 0); }
+}
+@media (max-width: 720px) {
+  .whatsapp-float { right: 16px; bottom: 16px; width: 52px; height: 52px; }
+  .whatsapp-float svg { width: 26px; height: 26px; }
+}
+
 /* ---------- Legal / Impressum ---------- */
 .legal-section { padding-top: 56px; }
 .legal-container { max-width: 720px; }
