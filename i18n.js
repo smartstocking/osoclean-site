@@ -48,7 +48,7 @@ const OSOCLEAN_I18N = {
 
     "gallery.eyebrow": "Nos réalisations",
     "gallery.title": "Quelques exemples de notre travail",
-    "gallery.lead": "Ces photos seront bientôt remplacées par de vraies photos de nos interventions.",
+    "gallery.lead": "Un aperçu de nos interventions à Berlin et alentours.",
 
     "contact.eyebrow": "Contact",
     "contact.title": "Parlons de votre projet",
@@ -113,7 +113,7 @@ const OSOCLEAN_I18N = {
 
     "gallery.eyebrow": "Unsere Arbeiten",
     "gallery.title": "Einige Beispiele unserer Arbeit",
-    "gallery.lead": "Diese Bilder werden bald durch echte Fotos unserer Einsätze ersetzt.",
+    "gallery.lead": "Ein Einblick in unsere Einsätze in Berlin und Umgebung.",
 
     "contact.eyebrow": "Kontakt",
     "contact.title": "Sprechen wir über Ihr Projekt",
@@ -178,7 +178,7 @@ const OSOCLEAN_I18N = {
 
     "gallery.eyebrow": "Our work",
     "gallery.title": "A few examples of our work",
-    "gallery.lead": "These photos will soon be replaced with real photos of our work.",
+    "gallery.lead": "A look at our work across Berlin and the surrounding area.",
 
     "contact.eyebrow": "Contact",
     "contact.title": "Let's talk about your project",
