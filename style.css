@@ -308,6 +308,37 @@ a.contact-card:hover { background: rgba(255,255,255,0.12); transform: translateY
 .contact-card strong { display: block; font-size: 0.82rem; color: #94A3B8; font-weight: 600; margin-bottom: 2px; }
 .contact-value { font-size: 1rem; font-weight: 700; color: var(--white); }
 
+/* ---------- Legal / Impressum ---------- */
+.legal-section { padding-top: 56px; }
+.legal-container { max-width: 720px; }
+.legal-tmg { font-size: 0.95rem; color: var(--ink-soft); margin-bottom: 32px; }
+.legal-list { margin: 0 0 40px; }
+.legal-list dt {
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 22px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+.legal-list dt:first-child { margin-top: 0; }
+.legal-list dd {
+  margin: 4px 0 0;
+  font-size: 1.02rem;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.legal-list dd a { color: var(--accent); }
+.legal-subhead { font-size: 1.1rem; margin-top: 36px; }
+.legal-back {
+  display: inline-block;
+  margin-top: 40px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.footer-copy a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
 /* ---------- Footer ---------- */
 .site-footer { background: var(--bg-dark); color: #94A3B8; padding: 36px 0 30px; border-top: 1px solid rgba(255,255,255,0.08); }
 .footer-inner { text-align: center; }

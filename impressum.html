@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="impressum.pageTitle">Impressum — OsoClean</title>
+<meta name="robots" content="noindex, follow" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232563EB%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22>O</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html#top" class="logo">Oso<span>Clean</span></a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#services" data-i18n="nav.services">Services</a>
+      <a href="index.html#about" data-i18n="nav.about">À propos</a>
+      <a href="index.html#gallery" data-i18n="nav.gallery">Galerie</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" data-lang="fr" class="lang-btn">FR</button>
+        <button type="button" data-lang="de" class="lang-btn">DE</button>
+        <button type="button" data-lang="en" class="lang-btn">EN</button>
+      </div>
+      <a href="tel:+4917689938472" class="btn btn-primary btn-small header-cta" data-i18n="nav.call">Appeler</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="section legal-section">
+    <div class="container legal-container">
+      <p class="section-eyebrow" data-i18n="impressum.eyebrow">Mentions légales</p>
+      <h1 data-i18n="impressum.title">Impressum</h1>
+      <p class="legal-tmg" data-i18n="impressum.tmg">Informations selon § 5 TMG (loi allemande sur les télémédias)</p>
+
+      <dl class="legal-list">
+        <dt data-i18n="impressum.nameLabel">Exploitant</dt>
+        <dd>Oumar Gemesy Sow<br />OsoClean</dd>
+
+        <dt data-i18n="impressum.formLabel">Forme juridique</dt>
+        <dd data-i18n="impressum.formValue">Entreprise individuelle (Einzelunternehmen)</dd>
+
+        <dt data-i18n="impressum.addressLabel">Adresse</dt>
+        <dd>Chodowieckistraße 4<br />10405 Berlin<br />Deutschland</dd>
+
+        <dt data-i18n="impressum.contactLabel">Contact</dt>
+        <dd>
+          Telefon: <a href="tel:+4917689938472">+49 176 89938472</a><br />
+          E-Mail: <a href="mailto:contact@osoclean.de">contact@osoclean.de</a>
+        </dd>
+
+        <dt data-i18n="impressum.taxLabel">Numéro fiscal</dt>
+        <dd>
+          31/538/01489<br />
+          <span data-i18n="impressum.taxNote">Selon § 19 al. 1 UStG (régime des petites entreprises), aucune TVA n'est facturée.</span>
+        </dd>
+      </dl>
+
+      <h2 class="legal-subhead" data-i18n="impressum.disputeTitle">Résolution des litiges en ligne</h2>
+      <p>
+        <span data-i18n="impressum.disputeText">La Commission européenne propose une plateforme de résolution des litiges en ligne (RLL) : </span><a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr</a><span data-i18n="impressum.disputeText2">. Nous ne sommes ni tenus ni disposés à participer à une procédure de résolution des litiges devant une instance de médiation de la consommation.</span>
+      </p>
+
+      <a href="index.html#top" class="legal-back" data-i18n="impressum.back">← Retour au site</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">Oso<span>Clean</span></div>
+    <p data-i18n="footer.text">Nettoyage professionnel à Berlin et alentours.</p>
+    <p class="footer-copy">© <span id="year"></span> OsoClean · osoclean.eu · <a href="impressum.html" data-i18n="footer.impressumLink">Impressum</a></p>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

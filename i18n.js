@@ -63,7 +63,24 @@ const OSOCLEAN_I18N = {
     "contact.zoneValue": "Berlin et alentours",
     "contact.cta": "Demander un devis par email",
 
-    "footer.text": "Nettoyage professionnel à Berlin et alentours."
+    "footer.text": "Nettoyage professionnel à Berlin et alentours.",
+    "footer.impressumLink": "Impressum",
+
+    "impressum.pageTitle": "Impressum",
+    "impressum.eyebrow": "Mentions légales",
+    "impressum.title": "Impressum",
+    "impressum.tmg": "Informations selon § 5 TMG (loi allemande sur les télémédias)",
+    "impressum.nameLabel": "Exploitant",
+    "impressum.formLabel": "Forme juridique",
+    "impressum.formValue": "Entreprise individuelle (Einzelunternehmen)",
+    "impressum.addressLabel": "Adresse",
+    "impressum.contactLabel": "Contact",
+    "impressum.taxLabel": "Numéro fiscal",
+    "impressum.taxNote": "Selon § 19 al. 1 UStG (régime des petites entreprises), aucune TVA n'est facturée.",
+    "impressum.disputeTitle": "Résolution des litiges en ligne",
+    "impressum.disputeText": "La Commission européenne propose une plateforme de résolution des litiges en ligne (RLL) : ",
+    "impressum.disputeText2": ". Nous ne sommes ni tenus ni disposés à participer à une procédure de résolution des litiges devant une instance de médiation de la consommation.",
+    "impressum.back": "← Retour au site"
   },
 
   de: {
@@ -129,7 +146,24 @@ const OSOCLEAN_I18N = {
     "contact.zoneValue": "Berlin und Umgebung",
     "contact.cta": "Angebot per E-Mail anfordern",
 
-    "footer.text": "Professionelle Reinigung in Berlin und Umgebung."
+    "footer.text": "Professionelle Reinigung in Berlin und Umgebung.",
+    "footer.impressumLink": "Impressum",
+
+    "impressum.pageTitle": "Impressum",
+    "impressum.eyebrow": "Rechtliches",
+    "impressum.title": "Impressum",
+    "impressum.tmg": "Angaben gemäß § 5 TMG",
+    "impressum.nameLabel": "Betreiber",
+    "impressum.formLabel": "Rechtsform",
+    "impressum.formValue": "Einzelunternehmen",
+    "impressum.addressLabel": "Anschrift",
+    "impressum.contactLabel": "Kontakt",
+    "impressum.taxLabel": "Steuernummer",
+    "impressum.taxNote": "Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung).",
+    "impressum.disputeTitle": "Online-Streitbeilegung",
+    "impressum.disputeText": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: ",
+    "impressum.disputeText2": ". Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+    "impressum.back": "← Zurück zur Website"
   },
 
   en: {
@@ -195,6 +229,23 @@ const OSOCLEAN_I18N = {
     "contact.zoneValue": "Berlin and surrounding area",
     "contact.cta": "Request a quote by email",
 
-    "footer.text": "Professional cleaning in Berlin and the surrounding area."
+    "footer.text": "Professional cleaning in Berlin and the surrounding area.",
+    "footer.impressumLink": "Legal Notice",
+
+    "impressum.pageTitle": "Legal Notice",
+    "impressum.eyebrow": "Legal notice",
+    "impressum.title": "Legal Notice (Impressum)",
+    "impressum.tmg": "Information according to § 5 TMG (German Telemedia Act)",
+    "impressum.nameLabel": "Operator",
+    "impressum.formLabel": "Legal form",
+    "impressum.formValue": "Sole proprietorship (Einzelunternehmen)",
+    "impressum.addressLabel": "Address",
+    "impressum.contactLabel": "Contact",
+    "impressum.taxLabel": "Tax number",
+    "impressum.taxNote": "Pursuant to § 19 (1) UStG (German small business regulation), no VAT is charged.",
+    "impressum.disputeTitle": "Online dispute resolution",
+    "impressum.disputeText": "The European Commission provides a platform for online dispute resolution (ODR): ",
+    "impressum.disputeText2": ". We are not obliged and not willing to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "impressum.back": "← Back to the site"
   }
 };
