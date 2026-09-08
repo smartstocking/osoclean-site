@@ -249,6 +249,7 @@ p { margin: 0 0 12px; color: var(--ink-soft); }
   margin-bottom: 14px;
 }
 .service-icon svg { width: 22px; height: 22px; stroke: var(--accent); }
+.service-card p a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .services-note {
   margin-top: 32px;
   padding: 18px 22px;
