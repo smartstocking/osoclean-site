@@ -199,12 +199,15 @@ p { margin: 0 0 12px; color: var(--ink-soft); }
   background: var(--accent);
   border-radius: 50%;
 }
-.hero-media img {
+.hero-media img,
+.hero-media video {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   width: 100%;
   aspect-ratio: 16/10;
   object-fit: cover;
+  display: block;
+  background: #000;
 }
 
 /* ---------- Trust strip ---------- */
